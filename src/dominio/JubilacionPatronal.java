@@ -13,7 +13,7 @@ public class JubilacionPatronal extends PersonaJubilada {
         } else if (op1 == 2) {
             total = (total * 0.05) + total;
         }
-       // System.out.println("Su pension total es: " + total);
-return total;
+
+        return total;
     }
 }

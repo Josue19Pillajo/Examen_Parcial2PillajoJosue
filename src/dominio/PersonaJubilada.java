@@ -8,7 +8,7 @@ public class PersonaJubilada implements PensionInicial {
     private int aniosAporte;
     private double pensionFial;
     private String tipoJubilacion;
-    
+
     public PersonaJubilada(String nroCedula, String nombre, double salarioBase, int aniosAporte) {
         this.nroCedula = nroCedula;
         this.nombre = nombre;
@@ -16,7 +16,6 @@ public class PersonaJubilada implements PensionInicial {
         this.aniosAporte = aniosAporte;
     }
 
-    
     public double calculoPensionInicial(int aniosAporte) {
         double pi = 0;
         if (aniosAporte <= 10) {
@@ -53,12 +52,10 @@ public class PersonaJubilada implements PensionInicial {
     public double getPensionFial() {
         return pensionFial;
     }
- 
+
     @Override
     public String toString() {
-        return this.nombre+" con nro. de cedula "+this.nroCedula +" tiene un tipo de "+this.tipoJubilacion+" y como pension final "+this.pensionFial;
+        return this.nombre + " con nro. de cedula " + this.nroCedula + " tiene un tipo de " + this.tipoJubilacion + " y como pension final " + this.pensionFial;
     }
-
-   
 
 }

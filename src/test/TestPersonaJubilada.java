@@ -113,7 +113,7 @@ public class TestPersonaJubilada {
 
                 }
                 System.out.println("");
-                System.out.println("La pension total de "+pj.getNombre()+" es: " + total);
+                System.out.println("La pension total de " + pj.getNombre() + " es: " + total);
                 System.out.println("");
                 System.out.println("--- Lista de Personas Ingresadas ---");
                 perJubi.add(new PersonaJubilada(nroCedula, nombre, total, tipoJubilacion));
